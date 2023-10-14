@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,300;0,400;0,900;1,100;1,300;1,400&display=swap");
 @import url("fontawesome-all.min.css");
 
 /*
@@ -2591,12 +2591,13 @@ input, select, textarea {
 			position: relative;
 			-webkit-overflow-scrolling: touch;
 			padding: 0 2em 0 2em;
+			
 		}
 
 		.carousel article {
 			display: inline-block;
 			width: 18em;
-			background: #fff;
+			background: #8fbddf;
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;
@@ -2606,6 +2607,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.75s ease-in-out;
 			-ms-transition: opacity 0.75s ease-in-out;
 			transition: opacity 0.75s ease-in-out;
+			border-radius: 10%;
 		}
 
 			.carousel article.loading {
@@ -3141,4 +3143,8 @@ input, select, textarea {
 						margin-bottom: 2em;
 					}
 
+	}
+
+	h2,h3{
+		color: rgb(0, 81, 255);
 	}
